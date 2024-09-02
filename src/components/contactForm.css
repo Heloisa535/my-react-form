@@ -1,0 +1,71 @@
+/* CSS Global */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+ 
+}
+
+/* Estilos para o formulário */
+.form {
+  max-width: 400px;
+  margin: 20px auto;
+  margin-top: 250px;
+  padding: 20px;
+  background-color: #ffffff;
+  text-align: center; /* Centraliza o título */
+  margin-bottom: 300px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input {
+  background-color: #ffffff;
+  color: #000000; /* Corrigido para garantir que o texto da entrada seja visível */
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+.button {
+  padding: 10px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  width: 100%; /* Ajuste para largura completa */
+  height: 60px;
+}
+
+
+
+h2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 20px; /* Espaço entre o título e o formulário */
+  font-weight: bold;
+  text-align: center; /* Centraliza o título */
+}
+
+.strength{
+  font-size: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+}
+.error{
+  font-size: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+
+}
